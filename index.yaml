@@ -2,11 +2,11 @@ apiVersion: v1
 entries:
   hazelcast:
   - appVersion: 3.10.2
-    created: 2018-08-03T11:01:28.164482055+03:00
+    created: 2018-08-06T15:35:09.084558236+03:00
     description: Hazelcast IMDG is the most widely used in-memory data grid with hundreds
       of thousands of installed clusters around the world. It offers caching solutions
       ensuring that data is in the right place when it’s needed for optimal performance.
-    digest: e27d42a6c4672a6765ed65cd01391c54404bf38d3d1357e0efdfc95071eac06e
+    digest: abe64ecbfe0973ebb22a702697ac2c6cb457cac4230049316a75311c074a5787
     engine: gotpl
     home: http://hazelcast.org/
     icon: http://hazelcast.com/images/logos/Hazelcast-IMDG-Logo-Orange_Dark_Icon_200px.png
@@ -31,12 +31,12 @@ entries:
     version: 1.0.0
   hazelcast-enterprise:
   - appVersion: 3.10.2
-    created: 2018-08-03T11:01:28.165214123+03:00
+    created: 2018-08-06T15:35:09.085192482+03:00
     description: Hazelcast IMDG Enterprise is the most widely used in-memory data
       grid with hundreds of thousands of installed clusters around the world. It offers
       caching solutions ensuring that data is in the right place when it’s needed
       for optimal performance.
-    digest: 660968233a3d743b2810cca69c184a3df11af2af79ca287e5fee83091d6eb9fb
+    digest: c79beeb2ed3e58d1b1b12e78d0ec5654e583e7b7247e575f641854c618dae3e3
     engine: gotpl
     home: https://hazelcast.com/products/enterprise/
     icon: http://hazelcast.com/images/logos/Hazelcast-IMDG-Logo-Blue_Dark_Icon_200px.png
@@ -57,4 +57,4 @@ entries:
     urls:
     - https://hazelcast.github.com/charts/hazelcast-enterprise-1.0.0.tgz
     version: 1.0.0
-generated: 2018-08-03T11:01:28.163538103+03:00
+generated: 2018-08-06T15:35:09.083609277+03:00
