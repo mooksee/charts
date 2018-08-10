@@ -1,6 +1,23 @@
 ## Hazelcast image version
 ## ref: https://hub.docker.com/r/hazelcast/hazelcast-enterprise-kubernetes/tags/
 ##
+
+#####################################################
+## Values required by PCF Tile
+#####################################################
+
+images:
+  hazelcast:
+    image: "hazelcast/hazelcast-enterprise"
+    imageTag: "3.10.3"
+  mancenter:
+    image: "hazelcast/management-center"
+    imageTag: "3.10.2"
+
+#####################################################
+## Other values
+#####################################################
+
 image:
   # repository is the Hazelcast image name
   repository: "hazelcast/hazelcast-enterprise"
@@ -175,7 +192,7 @@ mancenter:
   # Management Center persistence properties
   persistence:
     # enabled is a flag to enable persistence for Management Center
-    enabled: true
+    enabled: false
     # existingClaim is a name of the existing Persistence Volume Claim that will be used for persistence
     # if not defined, a new Persistent Value Claim is created with the default name
     # existingClaim:

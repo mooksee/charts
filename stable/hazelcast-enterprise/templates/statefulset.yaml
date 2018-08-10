@@ -33,7 +33,7 @@ spec:
       {{- end }}
       containers:
       - name: {{ template "hazelcast.fullname" . }}
-        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        image: "{{ .Values.images.hazelcast.image }}:{{ .Values.images.hazelcast.imageTag }}"
         imagePullPolicy: {{ .Values.image.pullPolicy | quote }}
         resources:
 {{ toYaml .Values.resources | indent 10 }}

@@ -1,4 +1,4 @@
-name: hazelcast-enterprise
+name: hz-ent
 version: 1.0.1
 appVersion: "3.10.3"
 description: Hazelcast IMDG Enterprise is the most widely used in-memory data grid with hundreds of thousands of installed clusters around the world. It offers caching solutions ensuring that data is in the right place when it’s needed for optimal performance.
