@@ -2,7 +2,35 @@ apiVersion: v1
 entries:
   hazelcast:
   - appVersion: "3.11"
-    created: 2018-12-17T16:43:28.010384505+03:00
+    created: 2018-12-19T17:55:28.261020522+03:00
+    description: Hazelcast IMDG is the most widely used in-memory data grid with hundreds
+      of thousands of installed clusters around the world. It offers caching solutions
+      ensuring that data is in the right place when it’s needed for optimal performance.
+    digest: ed4c1ee200ef60d1e1a1290c095635624ae28f015c873ea4f7eea05bfb8b8fd4
+    engine: gotpl
+    home: http://hazelcast.org/
+    icon: http://hazelcast.com/images/logos/Hazelcast-IMDG-Logo-Orange_Dark_Icon_200px.png
+    keywords:
+    - hazelcast
+    - keyvalue
+    - in-memory
+    - database
+    - caching
+    maintainers:
+    - email: rafal@hazelcast.com
+      name: leszko
+    - email: guglielmo@hazelcast.com
+      name: googlielmo
+    - email: mesut@hazelcast.com
+      name: mesutcelik
+    name: hazelcast
+    sources:
+    - https://github.com/hazelcast/hazelcast
+    urls:
+    - https://hazelcast.github.com/charts/hazelcast-1.1.2.tgz
+    version: 1.1.2
+  - appVersion: "3.11"
+    created: 2018-12-19T17:55:28.260382299+03:00
     description: Hazelcast IMDG is the most widely used in-memory data grid with hundreds
       of thousands of installed clusters around the world. It offers caching solutions
       ensuring that data is in the right place when it’s needed for optimal performance.
@@ -30,7 +58,7 @@ entries:
     - https://hazelcast.github.com/charts/hazelcast-1.1.1.tgz
     version: 1.1.1
   - appVersion: "3.11"
-    created: 2018-12-17T16:43:28.009835632+03:00
+    created: 2018-12-19T17:55:28.259791195+03:00
     description: Hazelcast IMDG is the most widely used in-memory data grid with hundreds
       of thousands of installed clusters around the world. It offers caching solutions
       ensuring that data is in the right place when it’s needed for optimal performance.
@@ -58,7 +86,7 @@ entries:
     - https://hazelcast.github.com/charts/hazelcast-1.1.0.tgz
     version: 1.1.0
   - appVersion: 3.10.3
-    created: 2018-12-17T16:43:28.009244307+03:00
+    created: 2018-12-19T17:55:28.259265796+03:00
     description: Hazelcast IMDG is the most widely used in-memory data grid with hundreds
       of thousands of installed clusters around the world. It offers caching solutions
       ensuring that data is in the right place when it’s needed for optimal performance.
@@ -86,7 +114,7 @@ entries:
     - https://hazelcast.github.com/charts/hazelcast-1.0.1.tgz
     version: 1.0.1
   - appVersion: 3.10.2
-    created: 2018-12-17T16:43:28.008636747+03:00
+    created: 2018-12-19T17:55:28.258742668+03:00
     description: Hazelcast IMDG is the most widely used in-memory data grid with hundreds
       of thousands of installed clusters around the world. It offers caching solutions
       ensuring that data is in the right place when it’s needed for optimal performance.
@@ -115,7 +143,34 @@ entries:
     version: 1.0.0
   hazelcast-enterprise:
   - appVersion: "3.11"
-    created: 2018-12-17T16:43:28.013410293+03:00
+    created: 2018-12-19T17:55:28.265848542+03:00
+    description: Hazelcast IMDG Enterprise is the most widely used in-memory data
+      grid with hundreds of thousands of installed clusters around the world. It offers
+      caching solutions ensuring that data is in the right place when it’s needed
+      for optimal performance.
+    digest: 29d6864fe4f486ab97a7d806a55bc1a6e5afae7471b041dc1b13a6ed0d3c5a13
+    engine: gotpl
+    home: https://hazelcast.com/products/enterprise/
+    icon: http://hazelcast.com/images/logos/Hazelcast-IMDG-Logo-Blue_Dark_Icon_200px.png
+    keywords:
+    - hazelcast
+    - keyvalue
+    - in-memory
+    - database
+    - caching
+    maintainers:
+    - email: rafal@hazelcast.com
+      name: leszko
+    - email: guglielmo@hazelcast.com
+      name: googlielmo
+    - email: mesut@hazelcast.com
+      name: mesutcelik
+    name: hazelcast-enterprise
+    urls:
+    - https://hazelcast.github.com/charts/hazelcast-enterprise-1.1.3.tgz
+    version: 1.1.3
+  - appVersion: "3.11"
+    created: 2018-12-19T17:55:28.265107548+03:00
     description: Hazelcast IMDG Enterprise is the most widely used in-memory data
       grid with hundreds of thousands of installed clusters around the world. It offers
       caching solutions ensuring that data is in the right place when it’s needed
@@ -142,7 +197,7 @@ entries:
     - https://hazelcast.github.com/charts/hazelcast-enterprise-1.1.2.tgz
     version: 1.1.2
   - appVersion: "3.11"
-    created: 2018-12-17T16:43:28.012767263+03:00
+    created: 2018-12-19T17:55:28.263272279+03:00
     description: Hazelcast IMDG Enterprise is the most widely used in-memory data
       grid with hundreds of thousands of installed clusters around the world. It offers
       caching solutions ensuring that data is in the right place when it’s needed
@@ -169,7 +224,7 @@ entries:
     - https://hazelcast.github.com/charts/hazelcast-enterprise-1.1.1.tgz
     version: 1.1.1
   - appVersion: "3.11"
-    created: 2018-12-17T16:43:28.012141178+03:00
+    created: 2018-12-19T17:55:28.262621637+03:00
     description: Hazelcast IMDG Enterprise is the most widely used in-memory data
       grid with hundreds of thousands of installed clusters around the world. It offers
       caching solutions ensuring that data is in the right place when it’s needed
@@ -196,7 +251,7 @@ entries:
     - https://hazelcast.github.com/charts/hazelcast-enterprise-1.1.0.tgz
     version: 1.1.0
   - appVersion: 3.10.3
-    created: 2018-12-17T16:43:28.011510176+03:00
+    created: 2018-12-19T17:55:28.262059056+03:00
     description: Hazelcast IMDG Enterprise is the most widely used in-memory data
       grid with hundreds of thousands of installed clusters around the world. It offers
       caching solutions ensuring that data is in the right place when it’s needed
@@ -223,7 +278,7 @@ entries:
     - https://hazelcast.github.com/charts/hazelcast-enterprise-1.0.1.tgz
     version: 1.0.1
   - appVersion: 3.10.2
-    created: 2018-12-17T16:43:28.010954618+03:00
+    created: 2018-12-19T17:55:28.261517902+03:00
     description: Hazelcast IMDG Enterprise is the most widely used in-memory data
       grid with hundreds of thousands of installed clusters around the world. It offers
       caching solutions ensuring that data is in the right place when it’s needed
@@ -252,12 +307,12 @@ entries:
   hazelcast-jet:
   - apiVersion: v1
     appVersion: "0.7"
-    created: 2018-12-17T16:43:28.01716058+03:00
+    created: 2018-12-19T17:55:28.267466415+03:00
     description: Hazelcast Jet is an application embeddable, distributed computing
       engine built on top of Hazelcast In-Memory Data Grid (IMDG). With Hazelcast
       IMDG providing storage functionality, Hazelcast Jet performs parallel execution
       to enable data-intensive applications to operate in near real-time.
-    digest: fa3bd1977b442164f431d65168a595f27028368ffbdab07cc9d107031cd8583d
+    digest: 90818298e659641746e7ffb2d85ed0f00d48902b975be94cf56523f1bb346231
     engine: gotpl
     home: http://jet.hazelcast.org/
     icon: http://hazelcast.com/images/logos/Hazelcast-Jet-Logo-Blue_Light_Icon_200px.png
@@ -276,7 +331,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: "0.7"
-    created: 2018-12-17T16:43:28.016500651+03:00
+    created: 2018-12-19T17:55:28.266932813+03:00
     description: Hazelcast Jet is an application embeddable, distributed computing
       engine built on top of Hazelcast In-Memory Data Grid (IMDG). With Hazelcast
       IMDG providing storage functionality, Hazelcast Jet performs parallel execution
@@ -300,7 +355,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: "0.7"
-    created: 2018-12-17T16:43:28.014609452+03:00
+    created: 2018-12-19T17:55:28.266397372+03:00
     description: Hazelcast Jet is an application embeddable, distributed computing
       engine built on top of Hazelcast In-Memory Data Grid (IMDG). With Hazelcast
       IMDG providing storage functionality, Hazelcast Jet performs parallel execution
@@ -325,12 +380,12 @@ entries:
   hazelcast-jet-enterprise:
   - apiVersion: v1
     appVersion: "0.7"
-    created: 2018-12-17T16:43:28.019030996+03:00
+    created: 2018-12-19T17:55:28.269092276+03:00
     description: Hazelcast Jet Enterprise provides critical management features for
       scaling in-memory event stream processing across your IT landscape, including
       Management Center, Security Suite, Lossless Recovery, Rolling Job upgrades,
       and Enterprise PaaS Deployment Environments.
-    digest: feb0e7c960703f7885c0bf5c91315e55b28f2fc1e95fa5595facf21304f7e1a1
+    digest: b1c2cf225f7e6041b28c94a43af93ca00a0cd9edf2e54a92890a287023f25f74
     engine: gotpl
     home: https://hazelcast.com/products/jet/enterprise/
     icon: http://hazelcast.com/images/logos/Hazelcast-Jet-Logo-Blue_Light_Icon_200px.png
@@ -347,7 +402,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: "0.7"
-    created: 2018-12-17T16:43:28.018396107+03:00
+    created: 2018-12-19T17:55:28.268546045+03:00
     description: Hazelcast Jet Enterprise provides critical management features for
       scaling in-memory event stream processing across your IT landscape, including
       Management Center, Security Suite, Lossless Recovery, Rolling Job upgrades,
@@ -369,7 +424,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: "0.7"
-    created: 2018-12-17T16:43:28.017781566+03:00
+    created: 2018-12-19T17:55:28.26804922+03:00
     description: Hazelcast Jet Enterprise provides critical management features for
       scaling in-memory event stream processing across your IT landscape, including
       Management Center, Security Suite, Lossless Recovery, Rolling Job upgrades,
@@ -389,4 +444,4 @@ entries:
     urls:
     - https://hazelcast.github.com/charts/hazelcast-jet-enterprise-1.0.0.tgz
     version: 1.0.0
-generated: 2018-12-17T16:43:28.007826363+03:00
+generated: 2018-12-19T17:55:28.25800082+03:00
